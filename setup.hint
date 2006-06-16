@@ -1,0 +1,9 @@
+category: Editors
+requires: gvim
+sdesc: "Easy-to-use gVim configuration"
+ldesc: "Cream offers many Vim features through a simple interface common
+to most software applications. It has menus to access its features and
+preferences, basic keyboard shortcuts and offers syntax highlighting,
+spell check, multiple file find/replace, bookmarks, text wrapping and
+reformatting, line sorting, completion, tag navigation, block
+commenting, extensive file format and character support, and much more."
