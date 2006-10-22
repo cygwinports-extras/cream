@@ -10,6 +10,12 @@ commenting, extensive file format and character support, and much more.
 Runtime requirements:
   gvim-7.0.017-1
 
+Build requirements:
+  cygwin-1.5.21-2
+  bash-3.1-9
+  cygport-0.2.5-1
+  vim-7.0.122-1
+
 Canonical website:
   http://cream.sourceforge.net/
 
@@ -254,6 +260,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.37-1 -----
+Version bump.
 
 ----- version 0.36-1 -----
 Version bump for Vim 7.0.
