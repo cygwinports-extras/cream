@@ -24,15 +24,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack cream-0.38-X-src.tar.bz2
+  unpack cream-0.39-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./cream-0.38-X.cygport all
+  cygport ./cream-0.39-X.cygport all
 
 This will create:
-  /usr/src/cream-0.38-X-src.tar.bz2
-  /usr/src/cream-0.38-X.tar.bz2
+  /usr/src/cream-0.39-X-src.tar.bz2
+  /usr/src/cream-0.39-X.tar.bz2
 
 -------------------------------------------
 
@@ -41,16 +41,16 @@ Files included in the binary package:
   /etc/postinstall/cream.sh
   /usr/bin/cream
   /usr/share/applications/cream.desktop
-  /usr/share/doc/Cygwin/cream-0.38.README
-  /usr/share/doc/cream-0.38/CHANGELOG.txt
-  /usr/share/doc/cream-0.38/COPYING.txt
-  /usr/share/doc/cream-0.38/DEVELOPER.txt
-  /usr/share/doc/cream-0.38/KEYBOARD.txt
-  /usr/share/doc/cream-0.38/PressRelease.txt
-  /usr/share/doc/cream-0.38/README.txt
-  /usr/share/doc/cream-0.38/RELEASE.txt
-  /usr/share/doc/cream-0.38/TODO.txt
-  /usr/share/doc/cream-0.38/WINDOWS.txt
+  /usr/share/doc/Cygwin/cream-0.39.README
+  /usr/share/doc/cream-0.39/CHANGELOG.txt
+  /usr/share/doc/cream-0.39/COPYING.txt
+  /usr/share/doc/cream-0.39/DEVELOPER.txt
+  /usr/share/doc/cream-0.39/KEYBOARD.txt
+  /usr/share/doc/cream-0.39/PressRelease.txt
+  /usr/share/doc/cream-0.39/README.txt
+  /usr/share/doc/cream-0.39/RELEASE.txt
+  /usr/share/doc/cream-0.39/TODO.txt
+  /usr/share/doc/cream-0.39/WINDOWS.txt
   /usr/share/icons/cream.png
   /usr/share/icons/cream.svg
   /usr/share/vim/vim71/cream/EasyHtml.vim
@@ -221,44 +221,16 @@ Files included in the binary package:
   /usr/share/vim/vim71/cream/filetypes/vim.vim
   /usr/share/vim/vim71/cream/genutils.vim
   /usr/share/vim/vim71/cream/help/EnhancedCommentify.txt
-  /usr/share/vim/vim71/cream/help/opsplorer.txt
-  /usr/share/vim/vim71/cream/lang/menu_chinese_gb.936.vim
-  /usr/share/vim/vim71/cream/lang/menu_en_us.utf-8.vim
-  /usr/share/vim/vim71/cream/lang/menu_fr_fr.latin1.vim
-  /usr/share/vim/vim71/cream/lang/menu_ko.cp949.vim
-  /usr/share/vim/vim71/cream/lang/menu_korean_kr.949.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh.cp936.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh.cp950.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh.gb2312.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh_cn.18030.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh_cn.cp936.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh_cn.gb2312.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh_cn.gbk.vim
-  /usr/share/vim/vim71/cream/lang/menu_zh_cn.utf-8.vim
-  /usr/share/vim/vim71/cream/lang/strings_en_us.utf-8.vim
   /usr/share/vim/vim71/cream/multvals.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-CA_1.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-CA_2.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-CA_3.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-CA_4.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-GB_1.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-GB_2.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-GB_3.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-GB_4.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-US_1.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-US_2.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-US_3.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s-US_4.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s_1.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s_2.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s_3.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict-eng-s_4.vim
-  /usr/share/vim/vim71/cream/spelldicts/cream-spell-dict.vim
+  /usr/share/vim/vim71/cream/securemodelines.vim
   /usr/share/vim/vim71/cream/taglist.vim
 
 ------------------
 
 Port Notes:
+
+----- version 0.39-1 -----
+Version bump.
 
 ----- version 0.38-1 -----
 Version bump, built for Vim 7.1.
