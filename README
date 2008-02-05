@@ -11,9 +11,8 @@ Runtime requirements:
   gvim-7.1.x
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.2.11-1
-  vim-7.1-1
+  cygport-0.3.7-1
+  vim-7.1.x
 
 Canonical website:
   http://cream.sourceforge.net/
@@ -24,15 +23,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack cream-0.39-X-src.tar.bz2
+  unpack cream-0.40-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./cream-0.39-X.cygport all
+  cygport ./cream-0.40-X.cygport all
 
 This will create:
-  /usr/src/cream-0.39-X-src.tar.bz2
-  /usr/src/cream-0.39-X.tar.bz2
+  /usr/src/cream-0.40-X-src.tar.bz2
+  /usr/src/cream-0.40-X.tar.bz2
 
 -------------------------------------------
 
@@ -41,16 +40,15 @@ Files included in the binary package:
   /etc/postinstall/cream.sh
   /usr/bin/cream
   /usr/share/applications/cream.desktop
-  /usr/share/doc/Cygwin/cream-0.39.README
-  /usr/share/doc/cream-0.39/CHANGELOG.txt
-  /usr/share/doc/cream-0.39/COPYING.txt
-  /usr/share/doc/cream-0.39/DEVELOPER.txt
-  /usr/share/doc/cream-0.39/KEYBOARD.txt
-  /usr/share/doc/cream-0.39/PressRelease.txt
-  /usr/share/doc/cream-0.39/README.txt
-  /usr/share/doc/cream-0.39/RELEASE.txt
-  /usr/share/doc/cream-0.39/TODO.txt
-  /usr/share/doc/cream-0.39/WINDOWS.txt
+  /usr/share/doc/cream-0.40/CHANGELOG.txt
+  /usr/share/doc/cream-0.40/COPYING.txt
+  /usr/share/doc/cream-0.40/DEVELOPER.txt
+  /usr/share/doc/cream-0.40/KEYBOARD.txt
+  /usr/share/doc/cream-0.40/PressRelease.txt
+  /usr/share/doc/cream-0.40/README.txt
+  /usr/share/doc/cream-0.40/RELEASE.txt
+  /usr/share/doc/cream-0.40/TODO.txt
+  /usr/share/doc/cream-0.40/WINDOWS.txt
   /usr/share/icons/cream.png
   /usr/share/icons/cream.svg
   /usr/share/vim/vim71/cream/EasyHtml.vim
@@ -228,6 +226,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.40-1 -----
+Version bump.
 
 ----- version 0.39-1 -----
 Version bump.
