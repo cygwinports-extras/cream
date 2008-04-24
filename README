@@ -11,7 +11,7 @@ Runtime requirements:
   gvim-7.1.x
 
 Build requirements:
-  cygport-0.3.7-1
+  cygport-0.3.9-1
   vim-7.1.x
 
 Canonical website:
@@ -23,15 +23,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack cream-0.40-X-src.tar.bz2
+  unpack cream-0.41-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./cream-0.40-X.cygport all
+  cygport ./cream-0.41-X.cygport all
 
 This will create:
-  /usr/src/cream-0.40-X-src.tar.bz2
-  /usr/src/cream-0.40-X.tar.bz2
+  /usr/src/cream-0.41-X-src.tar.bz2
+  /usr/src/cream-0.41-X.tar.bz2
 
 -------------------------------------------
 
@@ -40,18 +40,17 @@ Files included in the binary package:
   /etc/postinstall/cream.sh
   /usr/bin/cream
   /usr/share/applications/cream.desktop
-  /usr/share/doc/cream-0.40/CHANGELOG.txt
-  /usr/share/doc/cream-0.40/COPYING.txt
-  /usr/share/doc/cream-0.40/DEVELOPER.txt
-  /usr/share/doc/cream-0.40/KEYBOARD.txt
-  /usr/share/doc/cream-0.40/PressRelease.txt
-  /usr/share/doc/cream-0.40/README.txt
-  /usr/share/doc/cream-0.40/RELEASE.txt
-  /usr/share/doc/cream-0.40/TODO.txt
-  /usr/share/doc/cream-0.40/WINDOWS.txt
+  /usr/share/doc/cream-0.41/CHANGELOG.txt
+  /usr/share/doc/cream-0.41/COPYING.txt
+  /usr/share/doc/cream-0.41/DEVELOPER.txt
+  /usr/share/doc/cream-0.41/KEYBOARD.txt
+  /usr/share/doc/cream-0.41/PressRelease.txt
+  /usr/share/doc/cream-0.41/README.txt
+  /usr/share/doc/cream-0.41/RELEASE.txt
+  /usr/share/doc/cream-0.41/TODO.txt
+  /usr/share/doc/cream-0.41/WINDOWS.txt
   /usr/share/icons/cream.png
   /usr/share/icons/cream.svg
-  /usr/share/vim/vim71/cream/EasyHtml.vim
   /usr/share/vim/vim71/cream/EnhancedCommentify.vim
   /usr/share/vim/vim71/cream/Rndm.vim
   /usr/share/vim/vim71/cream/addons/cream-colorinvert.vim
@@ -70,6 +69,7 @@ Files included in the binary package:
   /usr/share/vim/vim71/cream/addons/cream-email-formatter.vim
   /usr/share/vim/vim71/cream/addons/cream-email-munge.vim
   /usr/share/vim/vim71/cream/addons/cream-encrypt-algorithmic.vim
+  /usr/share/vim/vim71/cream/addons/cream-encrypt-gpg.vim
   /usr/share/vim/vim71/cream/addons/cream-encrypt-h4x0r.vim
   /usr/share/vim/vim71/cream/addons/cream-encrypt-hexme.vim
   /usr/share/vim/vim71/cream/addons/cream-encrypt-rot13.vim
@@ -125,6 +125,7 @@ Files included in the binary package:
   /usr/share/vim/vim71/cream/cream-colors-dawn.vim
   /usr/share/vim/vim71/cream/cream-colors-default.vim
   /usr/share/vim/vim71/cream/cream-colors-inkpot.vim
+  /usr/share/vim/vim71/cream/cream-colors-matrix.vim
   /usr/share/vim/vim71/cream/cream-colors-navajo-night.vim
   /usr/share/vim/vim71/cream/cream-colors-navajo.vim
   /usr/share/vim/vim71/cream/cream-colors-night.vim
@@ -226,6 +227,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.41-1 -----
+Version bump.
 
 ----- version 0.40-1 -----
 Version bump.
