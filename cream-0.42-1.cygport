@@ -14,6 +14,6 @@ src_install() {
 
 	export VIMRUNTIME=$(vim -e -T dumb --cmd 'exe "set t_cm=\<C-M>"|echo $VIMRUNTIME|quit' | tr -d '\015')
 
-	DESTDIR=${D} ./INSTALL.sh /usr || error "install failed"
+	DESTDIR=${D} /bin/sh ./INSTALL.sh /usr || error "install failed"
 	dodoc docs/*.txt
 }
