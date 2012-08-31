@@ -13,13 +13,13 @@
  	fi
  	echo "Finding \$VIMRUNTIME..."
 @@ -297,10 +297,6 @@
- if [ -e "$VRT/cream/docs-html/otherfiles.html" ]; then
  	rm -f $VRT/cream/docs-html/otherfiles.html
  fi
+ 
 -# 0.33
 -if [ -e "/usr/bin/cream" ]; then
 -	rm -f /usr/bin/cream
 -fi
+ 
  # 0.31
  if [ -e "$VRT/cream/docs-html/love.html" ]; then
- 	rm -f $VRT/cream/docs-html/love.html
