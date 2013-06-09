@@ -1,5 +1,8 @@
 inherit vim
 
+NAME="cream"
+VERSION=0.43
+RELEASE=1
 CATEGORY="Editors"
 SUMMARY="Easy-to-use configuration for gVim"
 DESCRIPTION="Cream offers many Vim features through a simple interface common
@@ -9,7 +12,7 @@ spell check, multiple file find/replace, bookmarks, text wrapping and
 reformatting, line sorting, completion, tag navigation, block commenting,
 extensive file format and character support, and much more."
 HOMEPAGE="http://cream.sourceforge.net/"
-SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/cream/cream-${VERSION}.tar.gz"
 PATCH_URI="0.41-install.patch"
 
 REQUIRES="gvim"
