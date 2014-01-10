@@ -2,7 +2,7 @@ inherit vim
 
 NAME="cream"
 VERSION=0.43
-RELEASE=1
+RELEASE=2
 CATEGORY="Editors"
 SUMMARY="Easy-to-use configuration for gVim"
 DESCRIPTION="Cream offers many Vim features through a simple interface common
